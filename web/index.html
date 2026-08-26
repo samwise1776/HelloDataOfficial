@@ -11,9 +11,57 @@
 
 <body>
 
-    <h1 style="color: aliceblue; font-size: 64px;">
-        HelloData
-    </h1>
-    <p style="color: aliceblue;">Hello and welcome to <b>HelloData</b></p>
+    <main class="hero">
+
+        <div class="card">
+
+            <p class="tag">Simple database language</p>
+
+            <h1>HelloData</h1>
+
+            <p class="description">
+                Hello and welcome to <strong>HelloData</strong>,
+                a simple language designed to make working with databases
+                easier to understand and fun to learn.
+            </p>
+
+            <div class="buttons">
+                <a href="#learn" class="button primary">
+                    Learn HelloData
+                </a>
+
+                <a href="https://github.com/samwise1776/HelloDataOfficial"
+                   class="button secondary">
+                    View GitHub
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section id="learn" class="section">
+
+        <h2>What is HelloData?</h2>
+
+        <p>
+            HelloData is a beginner-friendly database language.
+            It can be used to create, store, read, update, and delete data.
+        </p>
+
+        <div class="code-box">
+<pre><code>make users {
+    name: text
+    score: number
+}
+
+add users {
+    name: "Alex"
+    score: 100
+}</code></pre>
+        </div>
+
+    </section>
+
 </body>
 </html>
