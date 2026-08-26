@@ -1,0 +1,18 @@
+:root {
+    color: black;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    background: linear-gradient(
+        135deg,
+        lightblue 0%,
+        white 35%,
+        cyan 65%,
+        red 100%
+    );
+
+    background-attachment: fixed;
+}
