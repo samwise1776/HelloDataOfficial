@@ -11,7 +11,7 @@ body {
         lightblue 0%,
         white 35%,
         cyan 65%,
-        red 100%
+        rgb(180, 203, 216) 100%
     );
 
     background-attachment: fixed;
