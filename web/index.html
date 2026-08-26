@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta
+        name="description"
+        content="HelloData - A simple beginner-friendly database language."
+    >
+
     <title>HelloData</title>
 
     <link rel="stylesheet" href="style.css">
@@ -11,57 +16,335 @@
 
 <body>
 
-    <main class="hero">
+    <nav class="navbar">
 
-        <div class="card">
+        <a href="#" class="logo">
+            Hello<span>Data</span>
+        </a>
 
-            <p class="tag">Simple database language</p>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#learn">Learn</a>
+            <a
+                href="https://github.com/samwise1776/HelloDataOfficial"
+                target="_blank"
+            >
+                GitHub
+            </a>
+        </div>
 
-            <h1>HelloData</h1>
+    </nav>
 
-            <p class="description">
-                Hello and welcome to <strong>HelloData</strong>,
-                a simple language designed to make working with databases
-                easier to understand and fun to learn.
-            </p>
 
-            <div class="buttons">
-                <a href="#learn" class="button primary">
-                    Learn HelloData
-                </a>
+    <main>
 
-                <a href="https://github.com/samwise1776/HelloDataOfficial"
-                   class="button secondary">
-                    View GitHub
-                </a>
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="glow glow-one"></div>
+            <div class="glow glow-two"></div>
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    Simple database language
+                </div>
+
+                <h1>
+                    Hello<span>Data</span>
+                </h1>
+
+                <p class="hero-description">
+                    A simple language designed to make databases
+                    easier to understand, easier to write,
+                    and more fun to learn.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#learn"
+                        class="button primary-button"
+                    >
+                        Learn HelloData
+                    </a>
+
+                    <a
+                        href="https://github.com/samwise1776/HelloDataOfficial"
+                        target="_blank"
+                        class="button secondary-button"
+                    >
+                        View GitHub
+                    </a>
+
+                </div>
+
             </div>
 
-        </div>
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section id="about" class="content-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    ABOUT
+                </p>
+
+                <h2>
+                    What is HelloData?
+                </h2>
+
+                <p>
+                    HelloData is a beginner-friendly database language
+                    made to simplify the way you create, store,
+                    find, update, and delete data.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+
+        <section id="features" class="content-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    FEATURES
+                </p>
+
+                <h2>
+                    Built to be simple
+                </h2>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        +
+                    </div>
+
+                    <h3>
+                        Create
+                    </h3>
+
+                    <p>
+                        Create databases and tables using
+                        easy-to-read HelloData syntax.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ↓
+                    </div>
+
+                    <h3>
+                        Store
+                    </h3>
+
+                    <p>
+                        Save information in structured tables
+                        without writing complicated SQL.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ?
+                    </div>
+
+                    <h3>
+                        Find
+                    </h3>
+
+                    <p>
+                        Search through your stored information
+                        and get the data you need.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ↻
+                    </div>
+
+                    <h3>
+                        Update
+                    </h3>
+
+                    <p>
+                        Change existing information using
+                        simple commands.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        ×
+                    </div>
+
+                    <h3>
+                        Delete
+                    </h3>
+
+                    <p>
+                        Remove records you no longer need
+                        from your database.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>
+                        Learn
+                    </h3>
+
+                    <p>
+                        Learn how databases work while also
+                        learning how a programming language works.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEARN -->
+
+        <section id="learn" class="content-section">
+
+            <div class="learn-container">
+
+                <div class="learn-text">
+
+                    <p class="section-label">
+                        HELLODATA CODE
+                    </p>
+
+                    <h2>
+                        Database code that actually looks simple.
+                    </h2>
+
+                    <p>
+                        Instead of starting with complicated database
+                        syntax, HelloData uses commands that are easier
+                        to understand.
+                    </p>
+
+                </div>
+
+
+                <div class="code-window">
+
+                    <div class="code-header">
+
+                        <div class="window-buttons">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <p>
+                            example.hdata
+                        </p>
+
+                    </div>
+
+                    <pre><code><span class="keyword">make</span> users {
+    name: <span class="type">text</span>
+    score: <span class="type">number</span>
+}
+
+<span class="keyword">add</span> users {
+    name: <span class="string">"Alex"</span>
+    score: <span class="number">100</span>
+}</code></pre>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GET STARTED -->
+
+        <section class="get-started">
+
+            <div class="get-started-card">
+
+                <p class="section-label">
+                    GET STARTED
+                </p>
+
+                <h2>
+                    Say hello to your data.
+                </h2>
+
+                <p>
+                    Explore the source code and follow HelloData
+                    as the language grows.
+                </p>
+
+                <a
+                    href="https://github.com/samwise1776/HelloDataOfficial"
+                    target="_blank"
+                    class="button primary-button"
+                >
+                    Open HelloData on GitHub
+                </a>
+
+            </div>
+
+        </section>
 
     </main>
 
-    <section id="learn" class="section">
 
-        <h2>What is HelloData?</h2>
+    <footer>
+
+        <a href="#" class="footer-logo">
+            HelloData
+        </a>
 
         <p>
-            HelloData is a beginner-friendly database language.
-            It can be used to create, store, read, update, and delete data.
+            A simple language for learning databases.
         </p>
 
-        <div class="code-box">
-<pre><code>make users {
-    name: text
-    score: number
-}
-
-add users {
-    name: "Alex"
-    score: 100
-}</code></pre>
-        </div>
-
-    </section>
+    </footer>
 
 </body>
 </html>
